@@ -1,0 +1,11 @@
+/* modification style sheet */
+
+/* modifcatino of news input groud */
+@media(min-width:768px){
+    .news-input{
+        width: 50%;
+    }
+  
+
+}
+
