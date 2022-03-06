@@ -1,3 +1,11 @@
+
+/* sudo class of   */
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
 /* modification style sheet */
 
 /* modifcatino of news input groud */
