@@ -49,7 +49,43 @@
             <div class="d-sm-flex align-items-center justify-content-between">
                 <div><h1>Become a <span class="text-primary"> Web Developer</span></h1>
                     <p class=" my-4 lead text-warning ">we focus on teaching our studenst the fundamentals of lates and how they caon become a good programmers and problem solvers</p>
-                    <button class="btn btn-primary btn-success mb-2">Enroll Now</button>
+                    <button class="btn btn-primary btn-success mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Enroll Now
+
+                    </button>
+
+                    <!-- Modal -->
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title text-dark" id="exampleModalLabel">New message</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <form>
+                                <div class="mb-3">
+                                  <label for="recipient-name" class="col-form-label text-dark">Recipient:</label>
+                                  <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="message-text" class="col-form-label text-dark">Message:</label>
+                                  <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Send message</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+
                 </div>
                 <img class="img-fluid w-50 my-4" src="img/showcase.svg" alt="">
             </div> 
@@ -207,8 +243,8 @@
                 <div class="col-md-6 col-lg-3" >
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/women/13.jpg" class="rounded-circle mb-3" alt="">
-                            <h3 class="card-title mb-3">Hayad Mohamed</h3>
+                            <img src="https://randomuser.me/api/portraits/men/14.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Huud Mohamed</h3>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam veritatis, minima nisi officia similique itaque.</p>
                             <a href="#" class="bi bi-twitter text-dark mx-1"></a>
                             <a href="#" class="bi bi-github text-secondary mx-1"></a>
@@ -222,8 +258,8 @@
                 <div class="col-md-6 col-lg-3" >
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
-                            <h3 class="card-title mb-3">Ali Hassan</h3>
+                            <img src="https://randomuser.me/api/portraits/women/25.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Ayan Hassan</h3>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam veritatis, minima nisi officia similique itaque.</p>
                             <a href="#" class="bi bi-twitter text-dark mx-1"></a>
                             <a href="#" class="bi bi-github text-secondary mx-1"></a>
